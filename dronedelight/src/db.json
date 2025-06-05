@@ -1,0 +1,763 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Amos källare",
+      "image": "amos.png"
+    },
+    {
+      "id": "2",
+      "name": "Sushi&company",
+      "image": "sushi.png"
+    },
+    {
+      "id": "3",
+      "name": "Cafe 5000",
+      "image": "cafe.png"
+    },
+    {
+      "id": "4",
+      "name": "Bollen",
+      "image": "bollen.png"
+    },
+    {
+      "id": "5",
+      "name": "Steak&falafel",
+      "image": "steakf.png"
+    },
+    {
+      "id": "6",
+      "name": "StarkaSteaks",
+      "image": "starkas.png"
+    }
+  ],
+  "menus": [
+    {
+      "restaurantId": 1,
+      "items": [
+        {
+          "id": 11,
+          "name": "Kebab Rulle",
+          "category": "huvudrätter",
+          "image": "images/kebabr.png",
+          "price": 105
+        },
+        {
+          "id": 12,
+          "name": "Extra Stor Kebab Rulle",
+          "category": "huvudrätter",
+          "image": "images/extrakebab.png",
+          "price": 115
+        },
+        {
+          "id": 13,
+          "name": "Shawarma Rulle",
+          "category": "huvudrätter",
+          "image": "images/shawarmarulle.png",
+          "price": 110
+        },
+        {
+          "id": 15,
+          "name": "Kebab Tallrik",
+          "category": "huvudrätter",
+          "image": "images/kebabtallrik.png",
+          "price": 115
+        },
+        {
+          "id": 16,
+          "name": "Shawarma Tallrik",
+          "category": "huvudrätter",
+          "image": "images/shawarmatallrik.png",
+          "price": 120
+        },
+        {
+          "id": 17,
+          "name": "Kyckling Tallrik",
+          "category": "huvudrätter",
+          "image": "images/kycklingtallrik.png",
+          "price": 115
+        },
+        {
+          "id": 18,
+          "name": "Halloumi Tallrik",
+          "category": "huvudrätter",
+          "image": "images/halloumitallrik.png",
+          "price": 110
+        },
+        {
+          "id": 19,
+          "name": "Hummus Klassisk",
+          "category": "förrätter",
+          "image": "images/hummus.png",
+          "price": 55
+        },
+        {
+          "id": 21,
+          "name": "Hummus med Kött",
+          "category": "förrätter",
+          "image": "images/hummusk.png",
+          "price": 65
+        },
+        {
+          "id": 22,
+          "name": "Hummus med Grönsaker",
+          "category": "förrätter",
+          "image": "images/hummusg.png",
+          "price": 60
+        },
+        {
+          "id": 23,
+          "name": "Chokladpudding",
+          "category": "efterrätter",
+          "image": "images/chokladpudding.png",
+          "price": 70
+        },
+        {
+          "id": 24,
+          "name": "Jordgubbar med grädde",
+          "category": "efterrätter",
+          "image": "images/jordgubbar.png",
+          "price": 75
+        },
+        {
+          "id": 25,
+          "name": "Tårta",
+          "category": "efterrätter",
+          "image": "images/tarta.png",
+          "price": 80
+        },
+        {
+          "id": 26,
+          "name": "Läsk (Cola, Fanta, Sprite)",
+          "category": "drycker",
+          "image": "images/dryck.png",
+          "price": 35
+        },
+        {
+          "id": 27,
+          "name": "Färsk Smoothie",
+          "category": "drycker",
+          "image": "images/smoothie.png",
+          "price": 50
+        }
+      ],
+      "id": "a0a6"
+    },
+    {
+      "restaurantId": 2,
+      "items": [
+        {
+          "id": 28,
+          "name": "Lax Tataki",
+          "category": "huvudrätter",
+          "image": "images/laxt.png",
+          "price": 125
+        },
+        {
+          "id": 29,
+          "name": "Tonfisk Tataki",
+          "category": "huvudrätter",
+          "image": "images/tonfiskt.png",
+          "price": 135
+        },
+        {
+          "id": 31,
+          "name": "Lax Sashimi",
+          "category": "huvudrätter",
+          "image": "images/laxs.png",
+          "price": 130
+        },
+        {
+          "id": 32,
+          "name": "Tonfisk Sashimi",
+          "category": "huvudrätter",
+          "image": "images/tonfisks.png",
+          "price": 125
+        },
+        {
+          "id": 33,
+          "name": "Sashimi Mix",
+          "category": "huvudrätter",
+          "image": "images/sashimim.png",
+          "price": 140
+        },
+        {
+          "id": 34,
+          "name": "Spicy Edamame",
+          "category": "förrätter",
+          "image": "images/edamames.png",
+          "price": 55
+        },
+        {
+          "id": 35,
+          "name": "Misosoppa",
+          "category": "förrätter",
+          "image": "images/misos.png",
+          "price": 50
+        },
+        {
+          "id": 36,
+          "name": "Yum Cha Dumplings",
+          "category": "förrätter",
+          "image": "images/dumplings.png",
+          "price": 75
+        },
+        {
+          "id": 39,
+          "name": "Mochiglass",
+          "category": "efterrätter",
+          "image": "images/mochi.png",
+          "price": 85
+        },
+        {
+          "id": 40,
+          "name": "Matcha Cheesecake",
+          "category": "efterrätter",
+          "image": "images/cheesecake.png",
+          "price": 90
+        },
+        {
+          "id": 42,
+          "name": "Japansk Lemonade",
+          "category": "drycker",
+          "image": "images/japanskl.png",
+          "price": 45
+        },
+        {
+          "id": 43,
+          "name": "Grönt Te",
+          "category": "drycker",
+          "image": "images/grontte.png",
+          "price": 35
+        }
+      ],
+      "id": "8278"
+    },
+    {
+      "restaurantId": 3,
+      "items": [
+        {
+          "id": 44,
+          "name": "Kyckling Pasta Sallad",
+          "category": "huvudrätter",
+          "image": "images/kpastasallad.png",
+          "price": 110
+        },
+        {
+          "id": 45,
+          "name": "Tonfisk Pasta Sallad",
+          "category": "huvudrätter",
+          "image": "images/tpastasallad.png",
+          "price": 115
+        },
+        {
+          "id": 46,
+          "name": "Steak Pasta Sallad",
+          "category": "huvudrätter",
+          "image": "images/spastasallad.png",
+          "price": 135
+        },
+        {
+          "id": 47,
+          "name": "Kyckling Sallad",
+          "category": "huvudrätter",
+          "image": "images/kycklingsallad.png",
+          "price": 105
+        },
+        {
+          "id": 48,
+          "name": "Tonfisk Sallad",
+          "category": "huvudrätter",
+          "image": "images/tonfisksallad.png",
+          "price": 100
+        },
+        {
+          "id": 49,
+          "name": "Steak Sallad",
+          "category": "huvudrätter",
+          "image": "images/steaksallad.png",
+          "price": 135
+        },
+        {
+          "id": 50,
+          "name": "Grillad Kycklingmacka",
+          "category": "förrätter",
+          "image": "images/kycklingmacka.png",
+          "price": 85
+        },
+        {
+          "id": 51,
+          "name": "Tonfiskmacka med avokado",
+          "category": "förrätter",
+          "image": "images/tonfiskmacka.png",
+          "price": 90
+        },
+        {
+          "id": 52,
+          "name": "Bruschetta med tomat och basilika",
+          "category": "förrätter",
+          "image": "images/bruschetta.png",
+          "price": 75
+        },
+        {
+          "id": 53,
+          "name": "Hallon Cheesecake",
+          "category": "efterrätter",
+          "image": "images/halloncheesecake.png",
+          "price": 95
+        },
+        {
+          "id": 54,
+          "name": "Chokladfondant med vaniljglass",
+          "category": "efterrätter",
+          "image": "images/chokladfondanth.png",
+          "price": 105
+        },
+        {
+          "id": 55,
+          "name": "Pannacotta med bär",
+          "category": "efterrätter",
+          "image": "images/pannacotta.png",
+          "price": 90
+        },
+        {
+          "id": 56,
+          "name": "Färskpressad apelsinjuice",
+          "category": "drycker",
+          "image": "images/apelsinjuice.png",
+          "price": 45
+        },
+        {
+          "id": 57,
+          "name": "Smoothie med mango och banan",
+          "category": "drycker",
+          "image": "images/smoothiem.png",
+          "price": 50
+        },
+        {
+          "id": 58,
+          "name": "Kall bryggd iste",
+          "category": "drycker",
+          "image": "images/iste.png",
+          "price": 40
+        }
+      ],
+      "id": "09d3"
+    },
+    {
+      "restaurantId": 4,
+      "items": [
+        {
+          "id": 60,
+          "name": "Kyckling med Pasta",
+          "category": "huvudrätter",
+          "image": "images/kycklingpasta.png",
+          "price": 130
+        },
+        {
+          "id": 61,
+          "name": "Kycklingrulle med vitlökssås",
+          "category": "huvudrätter",
+          "image": "images/kycklingrullev.png",
+          "price": 110
+        },
+        {
+          "id": 62,
+          "name": "Hamburgartallrik med pommes",
+          "category": "huvudrätter",
+          "image": "images/hamburgartallrik.png",
+          "price": 120
+        },
+        {
+          "id": 64,
+          "name": "Schnitzel med klyftpotatis",
+          "category": "huvudrätter",
+          "image": "images/schnitzel.png",
+          "price": 125
+        },
+        {
+          "id": 65,
+          "name": "Köttbullar med potatismos",
+          "category": "huvudrätter",
+          "image": "images/kottbullar.png",
+          "price": 110
+        },
+        {
+          "id": 66,
+          "name": "Pannbiff med lök & gräddsås",
+          "category": "huvudrätter",
+          "image": "images/pannbiff.png",
+          "price": 115
+        },
+        {
+          "id": 67,
+          "name": "Vitlöksbröd med ost",
+          "category": "förrätter",
+          "image": "images/vitloksbrod.png",
+          "price": 45
+        },
+        {
+          "id": 68,
+          "name": "Caesarsallad med krutonger",
+          "category": "förrätter",
+          "image": "images/caesarsallad.png",
+          "price": 75
+        },
+        {
+          "id": 69,
+          "name": "Mozzarellasticks med tomatsås",
+          "category": "förrätter",
+          "image": "images/mozzarellasticks.png",
+          "price": 60
+        },
+        {
+          "id": 70,
+          "name": "Ost & Köttpaj",
+          "category": "efterrätter",
+          "image": "images/kottpaj.png",
+          "price": 85
+        },
+        {
+          "id": 71,
+          "name": "Hallon Cheesecake",
+          "category": "efterrätter",
+          "image": "images/hallonc.png",
+          "price": 90
+        },
+        {
+          "id": 72,
+          "name": "Chokladfondant med vaniljglass",
+          "category": "efterrätter",
+          "image": "images/choklad.png",
+          "price": 100
+        },
+        {
+          "id": 73,
+          "name": "Läsk (Cola, Fanta, Sprite)",
+          "category": "drycker",
+          "image": "images/dryck.png",
+          "price": 35
+        },
+        {
+          "id": 74,
+          "name": "Iskaffe med karamell",
+          "category": "drycker",
+          "image": "images/iskaffe.png",
+          "price": 50
+        },
+        {
+          "id": 75,
+          "name": "Färskpressad apelsinjuice",
+          "category": "drycker",
+          "image": "images/apelsinjuice.png",
+          "price": 45
+        }
+      ],
+      "id": "d7ba"
+    },
+    {
+      "restaurantId": 5,
+      "items": [
+        {
+          "id": 76,
+          "name": "Entrecôte med vitlökssmör",
+          "category": "huvudrätter",
+          "image": "images/entrecote.png",
+          "price": 145
+        },
+        {
+          "id": 77,
+          "name": "Grillad kycklingfilé",
+          "category": "huvudrätter",
+          "image": "images/kycklingfile.png",
+          "price": 120
+        },
+        {
+          "id": 78,
+          "name": "Lammspett med ris",
+          "category": "huvudrätter",
+          "image": "images/lammspett.png",
+          "price": 135
+        },
+        {
+          "id": 79,
+          "name": "Oxfilépasta med gräddsås",
+          "category": "huvudrätter",
+          "image": "images/oxfilepasta.png",
+          "price": 140
+        },
+        {
+          "id": 80,
+          "name": "Shish kebab med bröd",
+          "category": "huvudrätter",
+          "image": "images/shishkebab.png",
+          "price": 125
+        },
+        {
+          "id": 81,
+          "name": "Halloumiburgare med pommes",
+          "category": "huvudrätter",
+          "image": "images/halloumiburgare.png",
+          "price": 110
+        },
+        {
+          "id": 82,
+          "name": "Vitlöksbröd med parmesan",
+          "category": "förrätter",
+          "image": "images/vitlok.png",
+          "price": 55
+        },
+        {
+          "id": 83,
+          "name": "Caprese-sallad",
+          "category": "förrätter",
+          "image": "images/capresesallad.png",
+          "price": 75
+        },
+        {
+          "id": 84,
+          "name": "Carpaccio på oxfilé",
+          "category": "förrätter",
+          "image": "images/carpaccio.png",
+          "price": 90
+        },
+        {
+          "id": 85,
+          "name": "Tiramisu med kakao",
+          "category": "efterrätter",
+          "image": "images/tiramisu.png",
+          "price": 95
+        },
+        {
+          "id": 86,
+          "name": "Chokladfondant med hallon",
+          "category": "efterrätter",
+          "image": "images/choklad.png",
+          "price": 100
+        },
+        {
+          "id": 87,
+          "name": "Vaniljpannacotta",
+          "category": "efterrätter",
+          "image": "images/vaniljpannacotta.png",
+          "price": 90
+        },
+        {
+          "id": 88,
+          "name": "Färskpressad apelsinjuice",
+          "category": "drycker",
+          "image": "images/apelsinjuice.png",
+          "price": 45
+        },
+        {
+          "id": 89,
+          "name": "Husets röda vin",
+          "category": "drycker",
+          "image": "images/rodvin.png",
+          "price": 120
+        },
+        {
+          "id": 90,
+          "name": "Espresso",
+          "category": "drycker",
+          "image": "images/espresso.png",
+          "price": 30
+        }
+      ],
+      "id": "37b5"
+    },
+    {
+      "restaurantId": 6,
+      "items": [
+        {
+          "id": 91,
+          "name": "Chili Cheese Burger",
+          "category": "huvudrätter",
+          "image": "images/chilicheseburger.png",
+          "price": 115
+        },
+        {
+          "id": 92,
+          "name": "Texas BBQ Ribs med coleslaw",
+          "category": "huvudrätter",
+          "image": "images/texasbbq.png",
+          "price": 140
+        },
+        {
+          "id": 93,
+          "name": "Spicy Kycklingvingar",
+          "category": "huvudrätter",
+          "image": "images/kycklingvingar.png",
+          "price": 110
+        },
+        {
+          "id": 94,
+          "name": "Jalapeñoburgare med cheddar",
+          "category": "huvudrätter",
+          "image": "images/jalapenoburgare.png",
+          "price": 115
+        },
+        {
+          "id": 95,
+          "name": "Het Korvtallrik med pommes",
+          "category": "huvudrätter",
+          "image": "images/korvtallrik.png",
+          "price": 105
+        },
+        {
+          "id": 96,
+          "name": "Stark biff med BBQ-sås",
+          "category": "huvudrätter",
+          "image": "images/biffmedbbq.png",
+          "price": 130
+        },
+        {
+          "id": 97,
+          "name": "Mozzarellasticks med ranch",
+          "category": "förrätter",
+          "image": "images/mozarellar.png",
+          "price": 60
+        },
+        {
+          "id": 98,
+          "name": "Buffalo Chicken Dip",
+          "category": "förrätter",
+          "image": "images/buffalodip.png",
+          "price": 70
+        },
+        {
+          "id": 99,
+          "name": "Loaded Nachos",
+          "category": "förrätter",
+          "image": "images/nachos.png",
+          "price": 85
+        },
+        {
+          "id": 100,
+          "name": "Milkshake med choklad",
+          "category": "efterrätter",
+          "image": "images/milkshake.png",
+          "price": 75
+        },
+        {
+          "id": 101,
+          "name": "Amerikansk äppelpaj",
+          "category": "efterrätter",
+          "image": "images/appelpaj.png",
+          "price": 80
+        },
+        {
+          "id": 102,
+          "name": "Cookie Sundae",
+          "category": "efterrätter",
+          "image": "images/sundae.png",
+          "price": 85
+        },
+        {
+          "id": 103,
+          "name": "Root Beer",
+          "category": "drycker",
+          "image": "images/rootbeer.png",
+          "price": 45
+        },
+        {
+          "id": 104,
+          "name": "Vanilj-Cola",
+          "category": "drycker",
+          "image": "images/vaniljcola.png",
+          "price": 50
+        },
+        {
+          "id": 105,
+          "name": "Milkshake med jordgubb",
+          "category": "drycker",
+          "image": "images/milkshakej.png",
+          "price": 60
+        }
+      ],
+      "id": "3df5"
+    }
+  ],
+  "orders": [
+    {
+      "id": "fd3f",
+      "orderNumber": 499104,
+      "totalPrice": 260,
+      "paymentMethod": "Kreditkort",
+      "user": {
+        "name": "mofasakingen32",
+        "city": "malmö",
+        "street": "Gymnasistgatan 25d",
+        "houseNumber": "25d",
+        "email": "magiikerrn@gmail.com"
+      },
+      "items": [
+        {
+          "id": 28,
+          "name": "Lax Tataki",
+          "category": "huvudrätter",
+          "image": "images/laxt.png",
+          "price": 125,
+          "quantity": 1
+        },
+        {
+          "id": 29,
+          "name": "Tonfisk Tataki",
+          "category": "huvudrätter",
+          "image": "images/tonfiskt.png",
+          "price": 135,
+          "quantity": 1
+        }
+      ],
+      "date": "2025-06-05T18:45:24.097Z"
+    },
+    {
+      "id": "c299",
+      "orderNumber": 424053,
+      "totalPrice": 135,
+      "paymentMethod": "Kreditkort",
+      "user": {
+        "name": "mofasakingen32",
+        "city": "malmö",
+        "street": "Gymnasistgatan 25d",
+        "houseNumber": "25d",
+        "email": "magiikerrn@gmail.com"
+      },
+      "items": [
+        {
+          "id": 29,
+          "name": "Tonfisk Tataki",
+          "category": "huvudrätter",
+          "image": "images/tonfiskt.png",
+          "price": 135,
+          "quantity": 1
+        }
+      ],
+      "date": "2025-06-05T18:49:33.319Z"
+    },
+    {
+      "id": "4d74",
+      "orderNumber": 559335,
+      "totalPrice": 130,
+      "paymentMethod": "Kreditkort",
+      "user": {
+        "name": "mofasakingen32",
+        "city": "malmö",
+        "street": "Gymnasistgatan 25d",
+        "houseNumber": "25d",
+        "email": "magiikerrn@gmail.com"
+      },
+      "items": [
+        {
+          "id": 31,
+          "name": "Lax Sashimi",
+          "category": "huvudrätter",
+          "image": "images/laxs.png",
+          "price": 130,
+          "quantity": 1
+        }
+      ],
+      "date": "2025-06-05T18:49:40.368Z"
+    }
+  ]
+}

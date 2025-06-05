@@ -1,0 +1,58 @@
+.order-container {
+  padding: 24px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.order-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.order-summary {
+  margin-top: 20px;
+
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.order-total {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.order-button,
+.clear-order {
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.order-button {
+  background: #ff3b3b;
+  color: white;
+}
+
+.order-button:hover {
+  background: #e0484e;
+}
+
+.clear-order {
+  background: #ff3b3b;
+}
+
+.clear-order:hover {
+  background: #cc0000;
+}
